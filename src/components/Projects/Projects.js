@@ -71,7 +71,7 @@ function Projects({ language = "id" }) {
         <Row className="project-grid">
           {filteredProjects.map((project) => (
             <Col lg={4} md={6} className="project-card" key={project.title}>
-              <ProjectCard {...project} />
+              <ProjectCard {...project} language={language} />
             </Col>
           ))}
         </Row>
