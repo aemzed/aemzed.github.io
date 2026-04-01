@@ -1,4 +1,6 @@
-# Portfolio Aditya (React Source)
+# Aditya Maulana Zunaidi
+
+## Portfolio Aditya (React Source)
 
 Source ini dibuat ulang dari versi GitHub Pages agar bisa diedit lagi.
 
@@ -41,4 +43,4 @@ npm run deploy
 
 `homepage` sudah di-set ke:
 
-`https://aemzed.github.io/portfolio_aditya`
+`https://aemzed.github.io`
