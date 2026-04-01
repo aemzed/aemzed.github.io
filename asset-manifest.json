@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.177b9b47.css",
-    "main.js": "/static/js/main.69513c20.js",
+    "main.css": "/static/css/main.7fb217e7.css",
+    "main.js": "/static/js/main.bdd94e2a.js",
     "static/js/453.4efb1ffe.chunk.js": "/static/js/453.4efb1ffe.chunk.js",
+    "static/media/cover-ihub.png": "/static/media/cover-ihub.2f50fea62fa18efb945b.png",
     "static/media/c_sharp_basic certificate.pdf": "/static/media/c_sharp_basic certificate.65f5d450ca68b4312d15.pdf",
     "static/media/javascript_intermediate certificate.pdf": "/static/media/javascript_intermediate certificate.d7d855bb39acaf6758e7.pdf",
     "static/media/problem_solving_basic certificate.pdf": "/static/media/problem_solving_basic certificate.8a74c5cf7ec8a95f6271.pdf",
     "static/media/rest_api_intermediate certificate.pdf": "/static/media/rest_api_intermediate certificate.2bd069fb83917322d3d3.pdf",
     "static/media/software_engineer certificate.pdf": "/static/media/software_engineer certificate.907b0cda805c89bce7e1.pdf",
     "static/media/sql_advanced certificate.pdf": "/static/media/sql_advanced certificate.a83343d8f4e9f940c11b.pdf",
+    "static/media/cover-pos-bali.png": "/static/media/cover-pos-bali.cbdd21346a0e6b6334c4.png",
+    "static/media/cover-income.png": "/static/media/cover-income.7e22b8d25617d2363139.png",
     "static/media/cover-super-depo.png": "/static/media/cover-super-depo.4958a5a6d4b5090650f3.png",
     "static/media/cover-container.png": "/static/media/cover-container.ed6cf4ef571f14db76d4.png",
     "static/media/cover-fuel-mobile.png": "/static/media/cover-fuel-mobile.25d610a0207d0f598400.png",
-    "static/media/cover-pos-bali.png": "/static/media/cover-pos-bali.a8a64b72c6bba99fe665.png",
     "static/media/cover-integrator.png": "/static/media/cover-integrator.a5e9638c3501bf38841d.png",
-    "static/media/cover-ihub.png": "/static/media/cover-ihub.44a209a8680a006d862a.png",
-    "static/media/cover-income.png": "/static/media/cover-income.44a209a8680a006d862a.png",
     "static/media/cover-looyal.png": "/static/media/cover-looyal.27c9c1191a1280849d74.png",
     "static/media/cover-pelra.png": "/static/media/cover-pelra.aec58a4cf783da174814.png",
     "static/media/cover-leave.png": "/static/media/cover-leave.35043747efe90666b3c8.png",
@@ -32,12 +32,12 @@
     "static/media/Aditya_Maulana_Zunaidi_Resume.pdf": "/static/media/Aditya_Maulana_Zunaidi_Resume.ac5b7ccab0d33d19c1b8.pdf",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.177b9b47.css.map": "/static/css/main.177b9b47.css.map",
-    "main.69513c20.js.map": "/static/js/main.69513c20.js.map",
+    "main.7fb217e7.css.map": "/static/css/main.7fb217e7.css.map",
+    "main.bdd94e2a.js.map": "/static/js/main.bdd94e2a.js.map",
     "453.4efb1ffe.chunk.js.map": "/static/js/453.4efb1ffe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.177b9b47.css",
-    "static/js/main.69513c20.js"
+    "static/css/main.7fb217e7.css",
+    "static/js/main.bdd94e2a.js"
   ]
 }
