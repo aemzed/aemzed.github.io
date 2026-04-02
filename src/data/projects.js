@@ -3,6 +3,7 @@ import containerMonitoringCover from "../Assets/Projects/covers/cover-container.
 import gateInOutReportingCover from "../Assets/Projects/covers/cover-gate.png";
 import posBaliTravelCover from "../Assets/Projects/covers/cover-pos-bali.png";
 import posQuipsterCover from "../Assets/Projects/covers/cover-pos-quipster.png";
+import posQuispterMiniPoCover from "../Assets/Projects/covers/cover-quipster-mini-po.png";
 import customerLoyaltyWebCover from "../Assets/Projects/covers/cover-loyalty-web.png";
 import looyalAppCover from "../Assets/Projects/covers/cover-looyal.png";
 import wooblazzCrmCover from "../Assets/Projects/covers/cover-wooblazz.png";
@@ -125,6 +126,48 @@ const projects = [
       "Node.js",
       "MySQL",
       "GitHub CI/CD",
+    ],
+    imgPath: posQuipsterCover,
+    ghLink: "",
+    demoLink: "",
+  },
+  {
+    title: "Quipster Mini PO",
+    company: "PT Tunas Kreasi Digital",
+    role: "FullStack Engineer",
+    period: "Dec 2022 - Apr 2024",
+    domain: "Inventory & Procurement",
+    description:
+      "Mini purchase order system for Quipster to manage inventory items and streamline purchase order workflows.",
+    highlights: [
+      "Managed product catalog and stock movement in one module",
+      "Digitized purchase order creation and approval flow",
+      "Improved visibility of inventory and procurement status",
+    ],
+    stack: ["CodeIgniter 3", "Node.js (TypeScript)", "MySQL", "REST API"],
+    imgPath: posQuispterMiniPoCover,
+    ghLink: "",
+    demoLink: "",
+  },
+  {
+    title: "Quipster Backoffice",
+    company: "PT Tunas Kreasi Digital",
+    role: "FullStack Engineer",
+    period: "Dec 2022 - Apr 2024",
+    domain: "POS Backoffice",
+    description:
+      "Backoffice system to support Quipster POS operations, including product, transaction, and operational management.",
+    highlights: [
+      "Centralized backoffice support for Quipster POS workflows",
+      "Improved operational control for product and transaction data",
+      "Maintained integration between web backoffice and POS services",
+    ],
+    stack: [
+      "CodeIgniter 3",
+      "PHP",
+      "Node.js (TypeScript)",
+      "MySQL",
+      "REST API",
     ],
     imgPath: posQuipsterCover,
     ghLink: "",
