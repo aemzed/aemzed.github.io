@@ -11,7 +11,7 @@ import {
   HashRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -51,7 +51,7 @@ function App() {
           language={language}
           onToggleLanguage={() =>
             setLanguage((currentLanguage) =>
-              currentLanguage === "id" ? "en" : "id"
+              currentLanguage === "id" ? "en" : "id",
             )
           }
         />
@@ -65,7 +65,7 @@ function App() {
             path="/certificate"
             element={<Certificate language={language} />}
           />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>

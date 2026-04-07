@@ -14,8 +14,8 @@ function AboutCard({ language = "id" }) {
               Halo, saya <span className="purple">Aditya Zunaidi </span>
               dari <span className="purple">Surabaya, Indonesia.</span>
               <br />
-              Saat ini saya bekerja sebagai Software Developer di ILCS (member
-              of Pelindo Group).
+              Saat ini saya bekerja sebagai Software Engineer di ILCS (member of
+              Pelindo Group).
               <br />
               Saya menyelesaikan pendidikan Diploma Sistem Informasi di
               Universitas Airlangga.
@@ -31,8 +31,8 @@ function AboutCard({ language = "id" }) {
               Hello, I am <span className="purple">Aditya Zunaidi </span>
               from <span className="purple">Surabaya, Indonesia.</span>
               <br />
-              I currently work as a Software Developer at ILCS (member of
-              Pelindo Group).
+              I currently work as a Software Engineer at ILCS (member of Pelindo
+              Group).
               <br />
               I completed a Diploma in Information Systems at Universitas
               Airlangga.
