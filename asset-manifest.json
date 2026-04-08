@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7fb217e7.css",
-    "main.js": "/static/js/main.1f304382.js",
+    "main.js": "/static/js/main.b1e7fc2c.js",
     "static/js/453.4efb1ffe.chunk.js": "/static/js/453.4efb1ffe.chunk.js",
     "static/media/cover-ihub.png": "/static/media/cover-ihub.2f50fea62fa18efb945b.png",
     "static/media/cover-fuel-mobile.png": "/static/media/cover-fuel-mobile.99238046a4e59485824c.png",
@@ -37,11 +37,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.7fb217e7.css.map": "/static/css/main.7fb217e7.css.map",
-    "main.1f304382.js.map": "/static/js/main.1f304382.js.map",
+    "main.b1e7fc2c.js.map": "/static/js/main.b1e7fc2c.js.map",
     "453.4efb1ffe.chunk.js.map": "/static/js/453.4efb1ffe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fb217e7.css",
-    "static/js/main.1f304382.js"
+    "static/js/main.b1e7fc2c.js"
   ]
 }
