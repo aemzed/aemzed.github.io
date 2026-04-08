@@ -9,6 +9,9 @@ import problemSolvingBasicPdf from "../../Assets/Certificate/problem_solving_bas
 import restApiIntermediatePdf from "../../Assets/Certificate/rest_api_intermediate certificate.pdf";
 import softwareEngineerPdf from "../../Assets/Certificate/software_engineer certificate.pdf";
 import sqlAdvancedPdf from "../../Assets/Certificate/sql_advanced certificate.pdf";
+import frontEndReactPdf from "../../Assets/Certificate/frontend_developer_react certificate.pdf";
+import nodeJsPdf from "../../Assets/Certificate/nodejs_intermediate certificate.pdf";
+import problemSolvingIntermediatePdf from "../../Assets/Certificate/problem_solving_intermediate certificate.pdf";
 
 const certificates = [
   {
@@ -39,6 +42,21 @@ const certificates = [
   {
     titleId: "Sertifikat SQL Advanced",
     titleEn: "SQL Advanced Certificate",
+    file: sqlAdvancedPdf,
+  },
+  {
+    titleId: "Sertifikat Front End React",
+    titleEn: "Front End React Certificate",
+    file: frontEndReactPdf,
+  },
+  {
+    titleId: "Sertifikat Problem Solving Intermediate",
+    titleEn: "Problem Solving Intermediate Certificate",
+    file: problemSolvingIntermediatePdf,
+  },
+  {
+    titleId: "Sertifikat Node.js Intermediate",
+    titleEn: "Node.js Intermediate Certificate",
     file: sqlAdvancedPdf,
   },
 ];
