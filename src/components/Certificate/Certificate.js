@@ -57,7 +57,7 @@ const certificates = [
   {
     titleId: "Sertifikat Node.js Intermediate",
     titleEn: "Node.js Intermediate Certificate",
-    file: sqlAdvancedPdf,
+    file: nodeJsPdf,
   },
 ];
 
