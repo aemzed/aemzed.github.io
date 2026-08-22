@@ -1,14 +1,22 @@
 {
   "name": "aditya-portfolio",
   "private": true,
-  "version": "2.0.0",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
-    "check": "node check.mjs",
-    "dev": "npx --yes serve site",
-    "deploy": "npm run check && gh-pages -d site -r https://github.com/aemzed/aemzed.github.io.git -b gh-pages --no-history"
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
   }
 }
