@@ -24,8 +24,7 @@
     align-items:center; gap:20px; flex-wrap:wrap; padding:18px 40px; backdrop-filter:blur(14px);
     background:rgba(9,10,12,0.45); border-bottom:1px solid rgba(232,233,234,0.08); }
   .brand { display:flex; align-items:center; gap:14px; }
-  /* ponytail: logo is a black mark on white — invert + screen drops the plate, no alpha channel needed */
-  .monogram { height:20px; width:auto; display:block; filter:invert(1); mix-blend-mode:screen; }
+  .monogram { height:20px; width:auto; display:block; }
   .brand span { font-size:12px; letter-spacing:0.22em; text-transform:uppercase; color:var(--fg); white-space:nowrap; }
   .nav-links { display:flex; gap:28px; align-items:center; flex-wrap:wrap;
     font-size:11px; letter-spacing:0.18em; text-transform:uppercase; }
@@ -130,7 +129,7 @@
   .contact-links .btn { padding:18px 32px; text-transform:none; }
   .colophon { display:flex; flex-wrap:wrap; justify-content:space-between; gap:20px; padding-top:30px;
     border-top:1px solid rgba(232,233,234,0.1); font-size:11px; letter-spacing:0.16em; color:rgba(232,233,234,0.42); }
-  .sign { height:46px; width:auto; display:block; margin-bottom:34px; filter:invert(1); mix-blend-mode:screen; opacity:0.85; }
+  .sign { height:46px; width:auto; display:block; margin-bottom:34px; opacity:0.85; }
 
   @media (max-width: 640px) {
     .nav { padding:14px 20px; }
