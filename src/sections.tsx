@@ -1,3 +1,4 @@
+import shot from './assets/apbs-portal-crop.png';
 import type { Copy } from './copy';
 import { CERTS, PROJECTS, SKILLS, STEPS, TIMELINE } from './data';
 
@@ -51,7 +52,7 @@ export function CaseStudy({ t }: P) {
             </div>
           </div>
           <div>
-            <img className="shot" src="apbs-portal-crop.png" alt="Portal APBS login screen" />
+            <img className="shot" src={shot} alt="Portal APBS login screen" />
             <div className="stats">
               <div><b>5</b><small className="mono">{t.stat1}</small></div>
               <div><b>8</b><small className="mono">{t.stat2}</small></div>

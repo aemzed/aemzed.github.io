@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import logo from './assets/logo-amz.png';
 import { COPY, type Lang } from './copy';
 import { EMAIL, PHONE, RESUME, STACK_MARQUEE } from './data';
 import { About, CaseStudy, Certifications, Process, Work } from './sections';
@@ -41,7 +42,7 @@ export default function App() {
       <div className="page">
         <nav className="nav mono">
           <a className="brand" href="#top">
-            <img className="monogram" src="logo-amz.png" alt="AMZ monogram" />
+            <img className="monogram" src={logo} alt="AMZ monogram" />
             <span>A.M. Zunaidi</span>
           </a>
           <div className="nav-links">
@@ -97,7 +98,7 @@ export default function App() {
               <a className="btn btn-ghost" href={`tel:${PHONE.replace(/[^+\d]/g, '')}`}>{PHONE}</a>
               <a className="btn btn-ghost" href={RESUME} download>{t.downloadResume} ↓</a>
             </div>
-            <img className="sign" src="logo-amz.png" alt="AMZ monogram" />
+            <img className="sign" src={logo} alt="AMZ monogram" />
             <div className="colophon mono">
               <span>SURABAYA, INDONESIA · GMT+7</span>
               <span>ADITYA MAULANA ZUNAIDI © 2026</span>
