@@ -1,5 +1,7 @@
 :root { --bg:#090a0c; --fg:#e8e9ea; --accent:#d98033; --accent-soft:#e8a35c; --line:rgba(232,233,234,0.12); }
   *, *::before, *::after { box-sizing:border-box; }
+  /* ponytail: anchor animation is native CSS — no scroll library, no JS handler */
+  html { scroll-behavior:smooth; scroll-padding-top:84px; }
   html, body { margin:0; padding:0; background:var(--bg); }
   body { font-family:'Roboto', Helvetica, Arial, sans-serif; color:var(--fg); -webkit-font-smoothing:antialiased; overflow-x:hidden; }
   ::selection { background:var(--accent); color:#0a0b0d; }
@@ -60,7 +62,10 @@
   .marquee-track { display:flex; width:max-content; gap:44px; animation:marquee 34s linear infinite;
     font-size:12px; letter-spacing:0.24em; text-transform:uppercase; color:rgba(232,233,234,0.55); }
   .marquee-track i { color:var(--accent); font-style:normal; padding-left:44px; }
-  @media (prefers-reduced-motion: reduce) { .marquee-track, .scroll-hint { animation:none; } }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior:auto; }
+    .marquee-track, .scroll-hint { animation:none; }
+  }
 
   /* sections */
   section { padding:120px 40px; }
